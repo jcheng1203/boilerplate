@@ -1,0 +1,40 @@
+html, body, div, header, article, aside, footer, nav, ul, ol, table, p, h1, h2, h3, h4, h5, h6 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body {
+  background-color: #F5F5F5; }
+
+header {
+  background-color: mistyrose;
+  height: 150px; }
+
+nav {
+  background-color: #E6E6FA;
+  height: 50px; }
+
+.article-title {
+  position: absolute;
+  height: 50px;
+  top: -25px;
+  background-color: salmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem; }
+
+article {
+  position: relative;
+  display: flex;
+  justify-content: center; }
+
+.content {
+  margin: 4rem;
+  max-width: 600px;
+  background-color: mintcream; }
+
+footer {
+  height: 100px;
+  background-color: mistyrose; }
